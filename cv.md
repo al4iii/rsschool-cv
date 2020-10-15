@@ -25,6 +25,10 @@
 
 ### 4. Version control system: Git
 
+### **Code Examples**
+
+`console.log ('Hello World').`
+
 ## English
 
 ### Also now I attend English courses, my goal for the next 2 months is to reach the level A2 / A2 +. But this is only the beginning of the journey.<br>
