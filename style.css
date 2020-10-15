@@ -1,4 +1,4 @@
-.wrapper {
+main {
   font-family: Geneva, Arial, Helvetica, sans-serif;
   max-width: 1023px;
   margin: 0 auto;
@@ -15,32 +15,21 @@ hr {
 img {
   margin: 10px 10px 0px 10px;
 }
-
 .h1 {
   margin: 0px 70px;
   font-size: 30px;
   line-height: 250%;
   text-align: center;
 }
-.h1 > h3 {
-  padding: 0;
-}
 h2 {
   font-weight: bold;
 }
-.contact h3 {
-  margin: 7px 0;
-  line-height: 250%;
-}
-.aboutme h3 {
-  padding: 7px 0;
-}
-.header {
+header {
   display: flex;
 }
 #line {
   border-left: 2px solid rgb(245, 241, 0);
 }
-.text {
+article {
   padding: 0px 10px;
 }
