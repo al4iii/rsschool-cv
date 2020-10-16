@@ -1,0 +1,49 @@
+#main {
+  font-family: "Noto Sans JP", sans-serif;
+  max-width: 1024px;
+
+  margin: 70px auto;
+  background-color: rgb(226, 222, 222);
+}
+
+#title {
+  padding: 10px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0;
+}
+#img-div {
+  padding: 20px;
+  background-color: white;
+}
+
+#image {
+  margin: 50px;
+}
+#img-caption {
+  text-align: center;
+}
+#tribute-info {
+  line-height: 200%;
+  align: center;
+}
+
+#tribute-link {
+  align: center;
+}
+section {
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  line-height: 170%;
+  color: black;
+}
+footer {
+  font-weight: 600;
+  text-align: center;
+  height: 70px;
+}
+a {
+  text-decoration: none;
+}
