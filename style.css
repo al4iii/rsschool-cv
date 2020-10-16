@@ -5,7 +5,8 @@
   background-color: rgb(226, 223, 222);
 }
 header {
-  height: 100px;
+  max-width: 1024px;
+  margin: 10px auto 20px;
   display: flex;
   align-items: center;
 }
@@ -27,6 +28,7 @@ header > a {
   margin: 50px;
 }
 #img-caption {
+  margin: 0px;
   text-align: center;
 }
 #tribute-info {
@@ -40,7 +42,7 @@ header > a {
 section {
   padding: 20px;
 }
-h3 {
+h2 {
   text-align: center;
   line-height: 170%;
   color: black;
