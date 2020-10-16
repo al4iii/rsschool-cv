@@ -1,11 +1,15 @@
 #main {
   font-family: "Noto Sans JP", sans-serif;
   max-width: 1024px;
-
-  margin: 70px auto;
+  margin: 10px auto 20px;
   background-color: rgb(226, 223, 222);
 }
-
+header {
+  height: 100px;
+}
+header > img {
+  margin-left: 550px;
+}
 #title {
   padding: 10px;
   line-height: 150%;
@@ -34,7 +38,7 @@
 section {
   padding: 20px;
 }
-h2 {
+h3 {
   text-align: center;
   line-height: 170%;
   color: black;
@@ -44,6 +48,11 @@ footer {
   text-align: center;
   height: 70px;
 }
+
 a {
   text-decoration: none;
+  font-weight: 800;
+}
+a:visited {
+  color: black;
 }
