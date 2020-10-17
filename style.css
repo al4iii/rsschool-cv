@@ -1,21 +1,36 @@
-main {
+body {
+  display: flex;
+  flex-direction: column;
   font-family: Geneva, Arial, Helvetica, sans-serif;
   max-width: 1023px;
   margin: 0 auto;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: "Noto Sans JP", sans-serif;
 }
-hr {
-  margin: 10px;
+.photo{
+  margin-top: ;
+  text-align: center;
+  width: 440px;
+  height: 500px;
+}
+
+.icon_contact{
+  width: 50px;;
+  display: flex;
+  flex-direction: column;
 }
 .contact {
+  width: 500px;;
+  display: flex;
+  flex-direction: row;
+ 
   padding: 0px 80px;
 }
 img {
   margin: 10px 10px 0px 10px;
 }
-.h1 {
+.CV {
   margin: 0px 70px;
   font-size: 30px;
   line-height: 250%;
@@ -32,4 +47,20 @@ header {
 }
 article {
   padding: 0px 10px;
+}
+#p_tel{
+  margin-top: 12px;
+  id="p_tel
+}
+#p_google{
+   margin-top: 20px;
+}
+#p_telegram{
+  margin-top: 20px;
+}
+#p_skype{
+  margin-top: 20px;
+}
+#p_github{
+  margin-top: 20px;
 }
