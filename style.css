@@ -1,66 +1,60 @@
-body {
+.body {
   display: flex;
   flex-direction: column;
   font-family: Geneva, Arial, Helvetica, sans-serif;
-  max-width: 1023px;
+  max-width: 1000px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #fff;
   margin-top: 30px;
   font-family: "Noto Sans JP", sans-serif;
 }
-.photo{
-  margin-top: ;
+
+.photo {
   text-align: center;
   width: 440px;
   height: 500px;
 }
 
-.icon_contact{
-  width: 50px;;
+.icon_contact {
+  width: 50px;
   display: flex;
   flex-direction: column;
 }
+
 .contact {
-  width: 500px;;
+  width: 500px;
   display: flex;
   flex-direction: row;
- 
-  padding: 0px 80px;
+  padding: 0px 60px;
 }
+
 img {
   margin: 10px 10px 0px 10px;
 }
-.CV {
+
+.cv {
   margin: 0px 70px;
   font-size: 30px;
   line-height: 250%;
   text-align: center;
 }
-h2 {
+
+.heading2 {
   font-weight: bold;
 }
-header {
+
+.header {
   display: flex;
 }
-#line {
-  border-left: 2px solid rgb(245, 241, 0);
-}
-article {
+
+.text {
   padding: 0px 10px;
 }
-#p_tel{
+
+.p_contact {
+  margin-top: 20px;
+}
+
+.p_contact1 {
   margin-top: 12px;
-  id="p_tel
-}
-#p_google{
-   margin-top: 20px;
-}
-#p_telegram{
-  margin-top: 20px;
-}
-#p_skype{
-  margin-top: 20px;
-}
-#p_github{
-  margin-top: 20px;
 }
