@@ -73,7 +73,7 @@ main {
   line-height: 160%;
   background-color: #e8e8e8;
   display: flex;
-  font-size: 14px;
+  font-size: 15px;
   flex-direction: column;
   border-top: 1px solid #ffa500;
   border-bottom: 1px solid #ffa500;
@@ -81,13 +81,14 @@ main {
 
 .about_me {
   flex: none;
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 30px;
 }
 
 .all_skill {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .education,
@@ -98,27 +99,20 @@ main {
 }
 
 .box1-2 {
-  flex: 3;
+  flex: 5;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.education,
+.english {
+  width: 350px;
 }
 
 .box3-4 {
   flex: 4;
-}
-
-.box1 {
-  order: 2;
-}
-
-.box2 {
-  order: 3;
-}
-
-.box3 {
-  order: 1;
-}
-
-.box4 {
-  order: 4;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 a {
