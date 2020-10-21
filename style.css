@@ -123,3 +123,48 @@ a {
 .code {
   text-indent: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 80%;
+  }
+  header {
+    flex-direction: column;
+  }
+  .photo > img {
+    margin: 0 auto;
+  }
+  .box1-2 {
+    width: 30%;
+  }
+  .box3-4 {
+    width: 30%;
+  }
+  .education,
+  .english {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 80%;
+  }
+  header {
+    flex-direction: column;
+  }
+  .photo > img {
+    margin: 0 auto;
+  }
+  .box1-2 {
+    margin: 0;
+    width: 30%;
+  }
+  .box3-4 {
+    width: 30%;
+  }
+  .education,
+  .english {
+    width: 150px;
+  }
+}
