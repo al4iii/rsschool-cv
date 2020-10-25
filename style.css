@@ -1,60 +1,170 @@
-.body {
-  display: flex;
-  flex-direction: column;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: #fff;
-  margin-top: 30px;
+body {
   font-family: "Noto Sans JP", sans-serif;
+  width: 1024px;
+  margin: 30px auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+header section {
+  padding: 10px;
 }
 
 .photo {
-  text-align: center;
-  width: 440px;
-  height: 500px;
-}
-
-.icon_contact {
-  width: 50px;
+  flex: 1;
   display: flex;
-  flex-direction: column;
-}
-
-.contact {
-  width: 500px;
-  display: flex;
-  flex-direction: row;
-  padding: 0px 60px;
-}
-
-img {
-  margin: 10px 10px 0px 10px;
+  align-items: center;
 }
 
 .cv {
-  margin: 0px 70px;
-  font-size: 30px;
-  line-height: 250%;
-  text-align: center;
+  padding: 0;
+  flex: 3;
 }
 
-.heading2 {
-  font-weight: bold;
-}
-
-.header {
+.contact {
+  padding: 0;
   display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.text {
-  padding: 0px 10px;
+.contact1-2,
+.contact3-4 {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
 }
 
-.p_contact {
-  margin-top: 20px;
+.contact1,
+.contact2,
+.contact3,
+.contact4 {
+  padding: 0;
+  width: 300px;
+  display: flex;
+  align-items: center;
 }
 
-.p_contact1 {
-  margin-top: 12px;
+img {
+  margin: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  flex: 2;
+}
+
+.name h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+main {
+  text-indent: 25px;
+  line-height: 160%;
+  background-color: #e8e8e8;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  border-top: 1px solid #ffa500;
+  border-bottom: 1px solid #ffa500;
+}
+
+.about_me {
+  flex: none;
+  margin-top: 15px;
+  padding: 30px;
+}
+
+.all_skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.education,
+.skill,
+.english,
+.code {
+  padding: 20px;
+}
+
+.box1-2 {
+  flex: 5;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.education,
+.english {
+  width: 350px;
+}
+
+.box3-4 {
+  flex: 4;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  color: #000;
+}
+
+.skill,
+.code {
+  text-indent: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 80%;
+  }
+  header {
+    flex-direction: column;
+  }
+  .photo > img {
+    margin: 0 auto;
+  }
+  .box1-2 {
+    width: 30%;
+  }
+  .box3-4 {
+    width: 30%;
+  }
+  .education,
+  .english {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 80%;
+  }
+  header {
+    flex-direction: column;
+  }
+  .photo > img {
+    margin: 0 auto;
+  }
+  .box1-2 {
+    margin: 0;
+    width: 30%;
+  }
+  .box3-4 {
+    width: 30%;
+  }
+  .education,
+  .english {
+    width: 150px;
+  }
 }
