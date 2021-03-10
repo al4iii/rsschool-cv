@@ -134,7 +134,6 @@ ol > li {
   }
 }
 
-
 @media screen and (max-width: 880px) {
   body {
     width: 80%;
@@ -160,7 +159,6 @@ ol > li {
     grid-template-rows: 1fr 2fr;
   }
 }
-
 
 @media screen and (max-width: 500px) {
   body {
