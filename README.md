@@ -1,6 +1,7 @@
 # rsschool-cv
 This is my tutorial project 'my resume'
-al4iii.github.io/rsschool-cv/
+
+https://al4iii.github.io/rsschool-cv/
 
 [link my CV](https://github.com/al4iii/rsschool-cv/blob/gh-pages/cv.md)
 
